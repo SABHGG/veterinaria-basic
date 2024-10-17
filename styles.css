@@ -58,11 +58,13 @@ header {
 
 main {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .info-section {
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .info-section div{
@@ -77,6 +79,7 @@ main {
     border: 1px solid #ccc;
     display: flex;
     gap: 20px;
+    height: 100%;
 }
 
 .info-box h3 {
