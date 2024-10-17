@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-image: url('https://previews.123rf.com/images/alexandernedviga/alexandernedviga1803/alexandernedviga180300036/103155636-fondos-de-hueso-de-cr%C3%A1neo-textura-abstracta-de-anatom%C3%ADa-representaci%C3%B3n-3d-ilustraci%C3%B3n-3d.jpg');
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.logo h1 {
+    font-size: 50px;
+    font-weight:   900;
+    color: #444;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.nav {
+    background-color: #1c4a48;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section {
+    width: 60%;
+}
+
+.info-section div{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box {
+    background-color: #f8f8a0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 20px;
+}
+
+.info-box h3 {
+    color: #444;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.info-box img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+
+.info-box div{
+    display: flex;
+    gap: 10px;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+.info-box a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+.appointment-form {
+    background-color: #344e41;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.appointment-form h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.appointment-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.appointment-form div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appointment-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #00a862;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #007a4e;
+}
+
+.footer {
+    background-color: #344e41;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
